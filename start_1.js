@@ -343,3 +343,29 @@ function cube(sayi) {
 
 /* yukarıda da parametreli ve dönen değerli bir metod yazdım. Burada değer döndüren ise "return" anahtar kelimesi. Return anahtar kelimesinden sonra metod içine yazılan komutlar okunmaz çünkü return kodu bitirir. Geriye değer döndürmeyen metodlara "void" metodlar denir.
  */  
+
+//GÜN MÜN KALMADI DA BABACIM YIKILDIK DA 06.02.2023 BU YUKARIDAKİ YAZIYI YAZDIĞIM AKŞAM OLANLAR OLDU. ALLAH BİZLERE RAHMETLİ İLE MUAMELE EYLESİN --18.02.2023
+
+/* 
+_________________________DOM___________________________
+
+DOM (Document Object Modeling): Döküman obje modeli/ modülü olarak çevirdiğim ve HTML-CSS-JS üçlüsünün bir araya geldiğinde olşturduğu Hydra/Bölümsonu canavarıdır. Burada bizi ilgilendiren ve önem arz eden hadise ise js den html e yaptığımız erişimlerde bu yapı çerçevesinde erişiriz. Yani HTML üzerinde dinamik değişiklik yapmak için js kullanırken "document" anahtar kelimesi ile oluşturduğumuz html yapısına erişim sağlarız ve aşağıda gördüğümüz "Selectors" anahtar kelimeleri ile bu yapının bünyesinde bulunan objelere erişim sağlarız.  
+
+Selectors: 
+
+1- document.getElementByID("......")= bu metod ile tırnak içine yazılan metin ile eşleşen id ye sahip html elemanlarına/obejelerine ulaşırız.
+
+2- document.getElementByClassName("......")= bu metod ile tırnak içine yazılan metin ile eşleşen class a sahip html elemanlarına/obejelerine ulaşırız.
+
+3- document.getElementByTagName("......")= bu metod ile tırnak içine yazılan metin ile eşleşen Tag a sahip html elemanlarına/obejelerine ulaşırız.
+
+4- document.querySelector("......")= bu metod ile tırnak içine yazılan metin ile eşleşen html elemanlarına/obejelerine ulaşırız.??FAKAT burada önemli nokta ".querySelector("")" metodu Css seçicileri ile çalışır yani bir id ye ulaşmak için "#", bir etikete ulaşmak için etiket adı, bir class a ulaşmak için "." koymamız gerekir for example;
+
+document.querySelector(".classİsmi");
+document.querySelector("#idİsmi");
+document.querySelector("p");
+
+
+5-document.querySelectorAll("......")= ".querySelector()" metodundan tek farkı içine yazılanla eşlenenlerin hepsini getirir. ??Önemli nokta: eğer aynı isimdeki elemanlardan ilkini değilde başka bir sıradakini getirmek istersek  document.querySelectorAll("......")[1,2,3...] sonuna koşeli parantez içine index numarası ile istediğimiz sıradakini getiririz. 
+
+*/
