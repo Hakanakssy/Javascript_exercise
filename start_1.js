@@ -346,6 +346,29 @@ function cube(sayi) {
 
 //GÜN MÜN KALMADI DA BABACIM YIKILDIK DA 06.02.2023 BU YUKARIDAKİ YAZIYI YAZDIĞIM AKŞAM OLANLAR OLDU. ALLAH BİZLERE RAHMETLİ İLE MUAMELE EYLESİN --18.02.2023
 
+/* Eksik tamamlama dersi 
+__________________________ARRAYS(DİZİLER)____________________________________
+
+Çokomelli: köşeli parantez içine tanımlanır;
+
+let dizi = ["hakan", "ahmet","mehmet",null,1,5.12];
+
+Çokomelli nokta2: js de diğer programlama dillerinden farklı olarak diziler içerisinde aynı anda birden fazla veri tipi tutulabilir.
+  çokomel 3: js de bir dizinin içerisinde yer alan son elemanın index numarasından daha büyük bir index numarası çağıdığınızda geriye döndürdüğü değer "dizi sınırı aşıldı" tarzında değil de "undefined" olur.
+
+Dizi içerisindeki bir elemanın değerini değiştirmek istediğimizde;
+ dizi_adı [index_no] = yeni_değer;
+
+*/
+// FOREACH= Bu döngü, "dizi.foreach(function(value_değer){})" syntax ile yazılır önce kullanacağımız dizi ismi ve ardına nokta ve foreach yazılır akabinde açılan parantez içine geriye değer döndüren bir metod tanımlanır ve bu metod içine döngüden yapmasını istediğimiz işlem yazılır. MANTIĞI== döngünün eleman sayısı kadar döner ve tanımlanan metodu bu dönme sayısı  kadar yapar.
+
+ hakanin_dizisi=[1,2,3,4,5,6,7,8,9,10];
+ hakanin_dizisi.forEach(sayi => {
+    console.log(sayi);
+ }); //sayi değeri, döngü numarası ile eşleşen indis numarsına sahip elemanı alır ve metod içinde döndürür.
+
+
+
 /* 
 _________________________DOM___________________________
 
